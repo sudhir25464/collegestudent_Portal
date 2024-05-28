@@ -1,0 +1,48 @@
+.fit-data{
+  margin-left: auto;
+}
+.border{
+  border-color: red;
+}
+.dashbord-first-section{
+  background-color:#0000;
+}
+.bgadmincard{
+  background-color: rgb(100, 252, 202) !important;
+
+  /* background-color: rgba(48, 176, 205, 0.751) !important; */
+  min-height: 150px;
+}
+.admmin-fetch-data-card{
+  
+  display: flex;
+  height: fit-content;
+}
+.admmin-fetch-data-card .box-1{
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 18%;
+}
+.admmin-fetch-data-card .box-2{
+  position: absolute;
+  font-size: 20px;
+  margin-top: 18%;
+
+  margin-left: 40%;
+}
+@media(max-width:768px){
+  .admmin-fetch-data-card .box-1{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+  .admmin-fetch-data-card .box-2{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10%;
+  
+    margin-left: 40%;
+  }
+}

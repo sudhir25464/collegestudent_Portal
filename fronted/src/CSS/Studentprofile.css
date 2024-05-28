@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* user page stype */
+
+.bg-grident-card{
+
+    background-color: rgb(244, 249, 248);
+    color: black;
+    /* background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+}
+.bg-img-auth-section{
+    background-image: url(https://res.cloudinary.com/dmcytmsit/image/upload/v1708352932/deveplopment2_dkniup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px;
+    background-color: red;
+}
+/* End user page style */
+.student-profile-form-container label{
+    color: rgba(11, 11, 12, 0.822);
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400;
+    /* color: rgba(44, 36, 36, 0.79); */
+  
+    font-style: normal;
+
+}
+.student-profile-form-container input{
+    height: 45px;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 300;
+    font-style: normal;
+}
+.get-student-profile-cont{
+    /* padding:20px; */
+    background-color: rgba(51, 114, 169, 0.527);
+  
+
+}
+.auth-profile-inner-card{
+    background-color: rgba(81, 169, 224, 0.824);
+    border-radius: 10px;
+    min-height: 580px;
+}
+.img-profile-cont{
+    display: flex;
+    background-color: rgba(57, 172, 234, 0.623);
+    /* justify-content: center;
+    align-items: center; */
+}
+.img-profile{
+    margin: 10px;
+    border-radius: 50%;
+    height: 120px;
+    /* justify-content: center; */
+}
+.auth-profile-text-cont{
+    background-color: rgb(255, 255, 255);
+}

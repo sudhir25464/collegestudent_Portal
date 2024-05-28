@@ -1,0 +1,51 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.user-update-card-section {
+    
+}
+.user-update-img-cont{
+    height: 300px;
+    width: fit-content;
+    
+}
+.user-updates-h-txt{
+    font-size: 23px;
+}
+
+.user-update-img-cont img{
+    height: 300px;
+    width: 500px; 
+}
+.user-inner-update-cont{
+
+    float: left;
+    width: 520px;
+    /* height: 600px; */
+    min-height: 500px;
+    /* max-height: 800px; */
+    overflow: hidden;
+    border-radius: 10px;
+    
+    background-color: rgba(154, 244, 244, 0.379);
+    
+  }
+  .time-details-inner-cont{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+  }
+  .time-details-inner-cont .time-details{
+
+    margin-left: auto;
+    font-size: 12px;
+    color:blueviolet;
+  }
+  .user-fetch-desc-update-text{
+    color: rgb(21, 18, 18) !important;
+    max-height: 200px;
+    min-height: 100px;
+    overflow-y: scroll;
+  }

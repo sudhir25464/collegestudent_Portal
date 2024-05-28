@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.coursebook-page-main-cont{
+    background-color: rgba(151, 246, 246, 0.452);
+}
+.add-book-container{
+    /* background-color: white; */
+    border-radius: 10px;
+}
+.uplaod-pdf-image-cont{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.uplaod-pdf-image-cont img{
+    align-items: center;
+    justify-content: center;
+    width: 520px;
+    height: 300px;
+    align-items: center;
+
+
+}
+.first-section{
+    background-color: white;
+
+}
+.bookheadline-title{
+    font-size: 25px;
+}
+.add-book-container label{
+    font-size: 14px;
+}
+.add-book-container input{
+   
+}
+.list-book-headline{
+font-size: 25px;
+font-weight: bold;
+border-bottom: 4px solid rgb(222, 48, 48);
+}

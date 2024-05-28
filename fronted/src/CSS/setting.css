@@ -1,0 +1,34 @@
+.mian-security-login-cont{
+
+    height: 100vh;
+    background-color: rgb(31, 31, 179);
+}
+.input-cont{
+   
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.input-cont input{
+    height: 60px;
+    font-size: 20px;
+}
+
+.setting-auth-conatiner{
+  
+   background-color: white;
+}
+
+.auth-get-profile-details-cont p label{
+    width: 150px !important;
+    font-weight: 500;
+  }
+
+  .auth-admin-p-card-design{
+    border-radius: 10px;
+  }
+  .get-uthslider-style-cont{
+    display: flex ;
+    flex-direction: row;
+  }

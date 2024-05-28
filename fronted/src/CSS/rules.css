@@ -1,0 +1,202 @@
+.gradent-haeder{
+  font-size: 52px;
+  font-weight: bold;
+  text-align: center;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.rules-text-section{
+  border-color: white;
+    border-radius: 10px 10px;
+    background-color: rgb(64, 244, 247);
+
+    background-color: rgba(247, 250, 250, 0.936);
+    
+  }
+  .rules-text-section:hover{
+    box-shadow: 5px  15px 5px 5px rgba(21, 157, 231, 0.269);
+  transition: 5s;
+  }
+.text-danger{
+    font-weight: bold;
+    font-family: Roman;
+    text-shadow: 1px 1px rgba(0, 0, 255, 0.217);
+}
+.rules-text-section p{
+  padding-top: 5px;
+    font-size: 16px;
+    word-spacing: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.img-dp-box {
+  border-radius: 5px;
+}
+.img-dp-box img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 100%;
+height: 400px;
+
+
+
+
+
+
+}
+
+.home-img-slider{
+
+  
+  min-height: 100px;
+  max-height: 250px;
+  width: 100%;
+  background-color: rgb(10, 104, 212);
+}
+.home-img-slider img{
+  background-color: rgb(10, 104, 212);
+  max-height: 250px;
+}
+
+.video-cont{
+     min-height: 200px;
+    max-height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+.Card-section{
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+border-radius: 10px;
+overflow: hidden;
+margin-top: 5px;
+background-color: rgba(247, 250, 250, 0.936);
+
+/* background-color: rgb(32, 230, 244); */
+/* background-color: rgba(135, 207, 235, 0.34); */
+border: 1px solid rgba(237, 195, 42, 0.459);
+box-shadow: 10px 20px 10px 10px solid white;
+
+}
+
+
+.Card-section h3{
+  
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(181, 120, 243);
+
+  
+
+}
+.Card-section p{
+  font-size: 12px ;
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+color: rgba(45, 17, 17, 0.769);
+font-family: "Poppins", sans-serif !important;
+  font-weight: 300;
+  /* color: rgba(44, 36, 36, 0.79); */
+
+  font-style: normal;
+
+}
+.img-circle{
+  
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  position: relative;
+  overflow: hidden;
+  
+}
+.img-circle:hover{
+  background-color: skyblue;
+
+}
+
+
+
+
+.education-tag-bg{
+  background-color: rgb(167, 8, 66);
+}
+@media(max-width:450px){
+ .img-dp-box img{
+
+  height: 300px;
+ }
+ .Card-section h3{
+  font-size: 20px;
+ }
+ .p-borger{
+  /* font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  font-style: normal; */
+  
+  /* border-radius: 5px; */
+  background-color: #eee;
+  /* border: 0.5px solid rgb(88, 64, 64); */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+ }
+
+
+ .home-img-slider{
+
+  
+  min-height: 100px;
+  max-height: 200px;
+  width: 100%;
+  background-color: rgb(10, 104, 212);
+}
+.home-img-slider img{
+  background-color: rgb(10, 104, 212);
+  max-height: 200px;
+}
+}
+
+/* Style here card profile section */
+.main-card-container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+.card-photo img{
+  height: 180px;
+  width: 180px;
+  background-color: rgb(145, 145, 202);
+  border-radius: 50%;
+  
+}
+.card-photo img:hover{
+  transition: 1s;
+  transform: scale(1.1);
+ filter: brightness(50%);
+}
+.card-contoaner-out-layer{
+  background-color: rgb(185, 185, 237);
+}
+.home-summary-font{
+ 
+ background-color: rgb(243, 236, 245);
+ font-family: "Poppins", sans-serif !important;
+ font-weight: 300;
+ color: rgba(6, 38, 92, 0.913);
+
+ font-style: italic;
+}

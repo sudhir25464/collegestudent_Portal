@@ -1,0 +1,120 @@
+/* style of annouce card */
+
+.main-bg-announce{
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+    background-color: aliceblue;
+   
+}
+
+.annouce-container{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.annouce-child-container{
+   
+  width: 800px;
+border-radius: 10px;
+background-color: rgb(227, 241, 242);
+box-shadow: 2px 1px 2px 2px  rgba(37, 30, 30, 0.1);
+
+}
+.annouce-child-container form{
+   
+    display: flex;
+    flex-direction: column;
+    color: rgb(35, 9, 60);
+   
+}
+.annouce-child-container form p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.annouce-child-container form .close-icone{
+    margin-left: auto;
+}
+.annouce-child-container form button{
+    margin-left: auto;
+}
+.btn-p{
+    background-color: rgb(78, 157, 226);
+
+    /* background: linear-gradient(90deg, rgb(214, 198, 80) 0%, rgb(252, 210, 2) 50%, rgb(192, 244, 4) 100%); */
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+    border-radius: 10px;
+}
+.btn-notic{
+    font-weight: bold;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: rgba(18, 2, 2, 0.824);
+    border: 0.5px solid white;
+    border-radius: 3px;
+    background-color: aliceblue;
+
+}
+.btn-notic:hover{
+
+    transition: 2s;
+    background-color: rgb(190, 203, 215);
+
+}
+/* design notic form */
+.notic-child-container{
+    width: 800px;
+    border-radius: 10px;
+    background-color: rgb(227, 241, 242);
+      box-shadow: 2px 1px 2px 2px  rgba(37, 30, 30, 0.1);
+    
+}
+.notic-child-container form{
+   
+    display: flex;
+    flex-direction: column;
+    color: rgb(35, 9, 60);
+   
+}
+.notic-child-container form p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.notic-child-container form .close-icone{
+    margin-left: auto;
+}
+.notic-child-container form button{
+    margin-left: auto;
+}
+.heding-txt{
+    border-radius: 5px;
+   padding-left: 20px;
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: bold;
+    padding: 20px 20px;
+    background-color: rgb(184, 217, 246);
+}
+.an-bg{
+    background-color: rgb(225, 237, 156);
+}
+.list-annouce-container{
+    /* background-color: rgba(186, 232, 232, 0.646); */
+    border-radius: 10px;
+
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+}
+.inner-annouce-cont{
+    background-color: rgb(184, 217, 246);
+
+    border-radius: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.time{
+    color: blue;
+}
+.time-letf{
+    margin-left: auto;
+}
+/* degisn add notic from */

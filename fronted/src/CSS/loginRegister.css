@@ -1,0 +1,149 @@
+.card-1{
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+.card-1:hover{
+
+    border: 2px solid rgb(210, 255, 158);
+    background-color: rgb(220, 220, 251);
+    transition: 2s;
+    color: rgba(91, 91, 199, 0.703);
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  
+}
+.flex-row label{
+  width: 200px;
+  padding-top: 10px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 500;
+  color: #1b44e8;
+  /* color: rgba(6, 38, 92, 0.913); */
+
+  font-style: normal;
+  
+}
+.border-design{
+  background-color: skyblue;
+  border-radius: 100px 10px 10px 20px;
+}
+.login-text-headline{
+  font-size: 25px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e2e26;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+ 
+}
+.login-icon{
+  width: 100px;
+  height: 100px;
+  margin-left: 30%;
+}
+.text-white{
+  color: bisque;
+  line-height: normal;
+}
+
+
+.rejister-heading{
+
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(51, 142, 227);
+}
+.register-note-bg{
+  background-color: rgb(228, 172, 18);
+}
+
+.registation-style{
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.9);
+
+    border: 1px solid white;
+   
+    
+  }
+  .registation-style:hover{
+    transition: 3s;
+    border: 1px solid rgba(105, 105, 241, 0.893);
+    background-color: rgba(240, 248, 255, 0.957);
+}
+
+.registation-style input{
+  font-size: 16px;
+  height: 50px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300;
+
+  font-style: normal;
+
+}.registation-style select{
+  height: 50px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 300;
+font-size: 16px;
+  font-style: normal;
+}
+ .submit-button{
+display: flex;
+
+}
+.submit-button .register-btn{
+ 
+  margin-left: auto;
+  height: 50px;
+  min-width: 100px;
+}
+.btn-denger{
+  
+  justify-content: left;
+  align-items: left;
+
+  
+}
+.btn-h{
+  background-image: linear-gradient(to right, #9c9448 0%, #26a0da  51%, #314755  100%);
+
+  align-items: right;
+  justify-content: right;
+  width: 200px;
+  color: white;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+} 
+
+
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #5C258D 0%, #4389A2  51%, #5C258D  100%);
+  
+  padding: 15px 45px;
+  text-align: center;
+  
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 3px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+

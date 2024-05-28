@@ -1,0 +1,126 @@
+.main-update-container{
+background-color: aliceblue;
+}
+.updates-container{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     box-shadow:5px 5px  solid red;
+
+ }
+
+.updates-child-container{
+   
+    width: 800px;
+  border-radius: 10px;
+  background-color: white;
+  /* border: 0.5px solid blue; */
+  }
+  .updates-child-container label{
+    color: blue;
+    font-weight: 500;
+  }
+  .updates-child-container input{
+
+    height: 50px;
+  }
+  .updates-child-container form{
+     
+      display: flex;
+      flex-direction: column;
+      color: rgb(35, 9, 60);
+       
+      
+     
+  }
+  .admin-updates-headline-text{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .btn-updates{
+    color: white;
+    background-color: rgb(215, 175, 16);
+    border-radius: 50px;
+    padding: 10px 10px;
+    border-color: aliceblue;
+   
+  }
+  .btn-updates:hover{
+    transition: 2s;
+    background-color: rgb(142, 119, 26);
+    color: rgb(172, 226, 235);
+    border-color: rgb(168, 195, 218);
+
+  }
+ .fetch-update-headline{
+    background-color: rgba(0, 255, 255, 0.692);
+    padding: 20px 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(11, 32, 32);
+ }
+ .fetch-update-headline:hover{
+  
+    
+    background-color: rgb(219, 232, 232);
+
+ }
+
+  .updates-child-container form p{
+      font-size: 22px;
+      font-weight: 500;
+  }
+  .updates-child-container form .close-icone{
+      margin-left: auto;
+  }
+  .updates-child-container form button{
+      margin-left: auto;
+  }
+ 
+  .inner-update-cont{
+
+    float: left;
+   
+    overflow: hidden;
+    border-radius: 10px;
+    
+    background-color: rgba(206, 226, 226, 0.379);
+    /* https://res.cloudinary.com/dmcytmsit/image/upload/v1708228945/default-featured-image.png_yzr2y8.jpg */
+    
+  }
+
+  .inner-update-cont .bg-img img{
+
+    background-image: url(https://res.cloudinary.com/dmcytmsit/image/upload/v1708228945/default-featured-image.png_yzr2y8.jpg);
+  
+    height: 300px;
+
+    width: 100%;
+   
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+
+  }
+ 
+
+.fetch-update-inner-headline{
+  font-weight: bold;
+  font-size: 18px;
+}
+.fetch-desc-update-text{
+
+  font-size: 15px;
+  color: black;
+}
+.admin-time-details-inner-cont{
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+}
+.admin-time-details-inner-cont .btn{
+  margin-left:auto;
+  font-size: 12px;
+  color:blueviolet;
+}

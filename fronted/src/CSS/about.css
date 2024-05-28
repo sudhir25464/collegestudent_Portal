@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.col-lg-8{
+    word-spacing: 2.5px ;
+    letter-spacing: 0.5px;
+    font-size:18px;
+    font-family: Roman;
+}
+.card-gradint-bg{
+    border-radius: 10px 10px;
+    background-color: #E9967A;
+}
+.about-char-image {
+    justify-content: center;
+    align-items: center;
+  
+    line-height: 20%;
+}
+.about-char-image img{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.about-sumarry{
+  
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 300;
+    color: rgba(6, 38, 92, 0.913);
+   font-size: 16px;
+    font-style: italic;
+}
