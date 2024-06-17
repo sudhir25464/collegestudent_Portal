@@ -48,6 +48,7 @@ import Userprofiledata from './pages/Userprofiledata'
 
 
 axios.defaults.baseURL = 'http://localhost:8000';
+
 axios.defaults.withCredentials = true
 
 const isUserSignIn = !!localStorage.getItem('token')

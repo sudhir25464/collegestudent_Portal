@@ -14,11 +14,11 @@ mongoose.connect(process.env.MONGO_URL)
 .then(()=> console.log('Db connectd'))
 .catch((err)=> console.log("Db noT Connted", err))
 
-app.use(cors({
-  origin: 'http://localhost:3000', // Allow all origins for testing. Change this to specific domains in production.
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization']
-}));
+// app.use(cors({
+//   origin: 'http://localhost:3000', // Allow all origins for testing. Change this to specific domains in production.
+//   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+//   allowedHeaders: ['Content-Type', 'Authorization']
+// }));
 
 
 
